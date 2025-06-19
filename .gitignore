@@ -1,0 +1,7 @@
+storageState.json
+.env
+test-results
+node_modules
+.vscode
+test-results
+playwright-report
