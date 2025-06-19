@@ -18,7 +18,7 @@ I decided against using screenshot comparison assertions as I believe they can b
 
 # Get Started
 
-1. Rename `.env.sample` to `.env`. I have included the username and password as it is a demo project.
+1. Rename `.env.sample` to `.env`. I will send the credentials separately in the email.
 
 2. Install Dependencies
 
