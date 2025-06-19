@@ -1,6 +1,6 @@
 import { Page, Locator } from "@playwright/test";
 
-export class WishItemModel {
+export class WishItemDialogModel {
   readonly page: Page;
   readonly enterProductLinkTextBox: Locator;
 

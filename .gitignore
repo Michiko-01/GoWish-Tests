@@ -2,6 +2,9 @@ storageState.json
 .env
 test-results
 node_modules
-.vscode
 test-results
-playwright-report
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/

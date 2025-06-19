@@ -17,7 +17,7 @@ test.describe("GoWish management wishList flow", () => {
     await dashboardModel.verifyToastNotification("Ønsket blev oprettet på");
   });
 
-  test("Verify user is able to delete wish item", async ({
+  test("Verify user is able to delete wish item from overview", async ({
     dashboardModel,
     wishlistOverviewModel,
   }) => {
