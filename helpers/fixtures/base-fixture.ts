@@ -4,13 +4,13 @@ import { DashboardModel } from "../models/dashboard-page-model";
 import { WishlistOverviewModel as WishlistOverviewModel } from "../models/wishlist-overview-page-model";
 
 type BaseItemFixtures = {
-  wishItemModel: WishItemDialogModel;
+  wishItemDialogModel: WishItemDialogModel;
   dashboardModel: DashboardModel;
   wishlistOverviewModel: WishlistOverviewModel;
 };
 
 export const test = base.extend<BaseItemFixtures>({
-  wishItemModel: async ({ page }, use) => {
+  wishItemDialogModel: async ({ page }, use) => {
     await use(new WishItemDialogModel(page));
   },
   dashboardModel: async ({ page }, use) => {

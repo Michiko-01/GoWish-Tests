@@ -14,7 +14,10 @@ key points:
 - Created fixture to extend the default page provided by Playwright
 - Enabled parallel run execution
 
-I decided against using screenshot comparison assertions as I believe they can be unstable.
+I decided against:
+
+- Using screenshot comparison assertions as I believe they can be unstable without further investigation.
+- Handling of different languages due to time constraint.
 
 # Get Started
 
